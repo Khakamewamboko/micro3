@@ -1,0 +1,32 @@
+2016-08-05T07:16:56.938811829 8.031182s notice: Recursively removing directory /home/khakame/horizon-with-docker/rethinkdb_data/tmp
+2016-08-05T07:16:56.965416510 8.057785s notice: Initializing directory /home/khakame/horizon-with-docker/rethinkdb_data
+2016-08-05T07:16:56.965555792 8.057924s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/khakame/horizon-with-docker/rethinkdb_data' did not already exist or is empty.)
+2016-08-05T07:16:56.965593632 8.057962s notice: Running rethinkdb 2.3.4~0xenial (GCC 5.3.1)...
+2016-08-05T07:16:56.970604062 8.062990s notice: Running on Linux 4.4.0-31-generic x86_64
+2016-08-05T07:16:56.970715074 8.063083s notice: Loading data from directory /home/khakame/horizon-with-docker/rethinkdb_data
+2016-08-05T07:16:57.292706693 8.385076s info: Automatically using cache size of 1674 MB
+2016-08-05T07:16:57.293964602 8.386333s notice: Listening for intracluster connections on port 29015
+2016-08-05T07:16:57.296720653 8.389089s notice: Listening for client driver connections on port 28015
+2016-08-05T07:16:57.297055946 8.389424s notice: Listening for administrative HTTP connections on port 8080
+2016-08-05T07:16:57.297060579 8.389428s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-08-05T07:16:57.297066037 8.389434s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-08-05T07:16:57.297069539 8.389437s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-08-05T07:16:57.297074480 8.389442s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-05T07:16:57.297080472 8.389448s notice: Server ready, "khakame_HP_15_Notebook_PC_y6i" c08b3acd-bc5d-48c9-95d9-f8cd99e40ca2
+2016-08-05T07:18:32.110461354 103.202830s info: Table 00d6ce9a-874b-4138-b3e4-efed2c05680a: Starting a new Raft election for term 1.
+2016-08-05T07:18:32.111565523 103.203934s info: Table 00d6ce9a-874b-4138-b3e4-efed2c05680a: Added replica on this server.
+2016-08-05T07:18:32.178082844 103.270452s info: Table 00d6ce9a-874b-4138-b3e4-efed2c05680a: This server is Raft leader for term 1. Latest log index is 0.
+2016-08-05T07:18:33.479416502 104.571785s info: Table ca695a65-1bbd-4fba-bf89-c07b84138387: Starting a new Raft election for term 1.
+2016-08-05T07:18:33.479832951 104.572202s info: Table ca695a65-1bbd-4fba-bf89-c07b84138387: Added replica on this server.
+2016-08-05T07:18:33.542965845 104.635335s info: Table ca695a65-1bbd-4fba-bf89-c07b84138387: This server is Raft leader for term 1. Latest log index is 0.
+2016-08-05T07:18:35.048182223 106.140551s info: Table 4a416142-83bf-4032-bb5d-1fb30ecbfd60: Starting a new Raft election for term 1.
+2016-08-05T07:18:35.048598737 106.140968s info: Table 4a416142-83bf-4032-bb5d-1fb30ecbfd60: Added replica on this server.
+2016-08-05T07:18:35.119028025 106.211397s info: Table 4a416142-83bf-4032-bb5d-1fb30ecbfd60: This server is Raft leader for term 1. Latest log index is 0.
+2016-08-05T07:18:36.675597025 107.767966s info: Table 47a706cd-b471-495f-80c2-190c5ad16f27: Starting a new Raft election for term 1.
+2016-08-05T07:18:36.676019998 107.768389s info: Table 47a706cd-b471-495f-80c2-190c5ad16f27: Added replica on this server.
+2016-08-05T07:18:36.717933664 107.810302s info: Table 47a706cd-b471-495f-80c2-190c5ad16f27: This server is Raft leader for term 1. Latest log index is 0.
+2016-08-05T08:17:20.720039514 3631.605188s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-08-05T08:17:20.720183689 3631.605332s notice: Shutting down client connections...
+2016-08-05T08:17:20.720314155 3631.605462s notice: All client connections closed.
+2016-08-05T08:17:20.720318464 3631.605466s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-05T08:17:20.728974267 3631.614122s notice: Storage engine shut down.

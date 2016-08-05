@@ -1,0 +1,37 @@
+{
+  "Services": {
+    "db": {
+      "Image": "localhost:5000/rethinkdb@sha256:91b2dec5bdff20601d05c04005bae5190fcea6256aefe1b76fa9ac7df0dc49a5", 
+      "Networks": [
+        "default"
+      ], 
+      "Ports": [
+        {
+          "Port": 28015, 
+          "Protocol": "tcp"
+        }, 
+        {
+          "Port": 8080, 
+          "Protocol": "tcp"
+        }
+      ]
+    }, 
+    "web": {
+      "Env": [
+        "RDB_HOST=db", 
+        "RDB_PORT=28015"
+      ], 
+      "Image": "localhost:5000/micro3@sha256:52e0c4f4f003c82365f7c4294f12957c9a084d134b3c12e825435ca266430f38", 
+      "Networks": [
+        "default"
+      ], 
+      "Ports": [
+        {
+          "Port": 8081, 
+          "Protocol": "tcp"
+        }
+      ]
+    }
+  }, 
+  "Version": "0.1"
+}
